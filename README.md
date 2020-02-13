@@ -1,4 +1,4 @@
-# martins-adventures
+# Martin's Adventures
 A game developed solely by me. The original Martin promised music.
 
 ## What is this game about
@@ -7,7 +7,11 @@ This is a small game about my friend Martin's adventures. It is full of bad insi
 ## Current plans
 This part will discuss what to expect later.
 ### Mechanics
-  - Actual attack, probably makes a new object with collider
+  - Actual attack, probably makes a new object with collider (Animations done, under work)
+  - Actual health (Under work)
+### Graphics
+  - Improved graphics (Better pixelart)
+  - Subpixel animations
 ### Enemies
 Currently need to add:
   - Working roomba enemies (Currently under work)
@@ -21,7 +25,7 @@ Interactive pieces of enviroment.
   - Big boom barrels
 ### Items
 These will be very important but should stay simple and straight to the point.
-  - Healing item (Chalk?)
+  - Healing item (Chalk?)(Under work)
   - Simple powerup that lasts until hit, then gets dropped able to be collected again. (shoes?) (gives projectile attack?)
 ### Levels
 Levels would be grouped into chapters. Each chapter would have a specific theme.
