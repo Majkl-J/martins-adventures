@@ -22,30 +22,30 @@ What has been already added and when.
 ## Current plans
 This part will discuss what to expect later.
 ### Mechanics
-  - Actual attack, probably makes a new object with collider (Animations done, under work)
+  - Actual attack, probably makes a new object with collider (Animations done, under work, expected in a.3)
 ### Graphics
-  - Improved graphics (Better pixelart)
-  - Subpixel animations
+  - Improved graphics (Better pixelart, expected in b.1)
+  - Subpixel animations (expected in b.1)
 ### Enemies
 Currently need to add:
-  - Stronger enemy, probably with a simple easy to understand weakspot
+  - Stronger enemy, probably with a simple easy to understand weakspot (expected in a.3)
   - Projectile enemy
   - Boss Franz to end the first chapter
 ### Ambient
 Interactive pieces of enviroment.
-  - Breakable vents
-  - Crates
+  - Breakable vents (expected in a.3)
+  - Crates (expected in a.4)
   - Big boom barrels
 ### Items
 These will be very important but should stay simple and straight to the point.
-  - Healing item (Chalk?)(Under work)
+  - Healing item (Chalk?)(Under work)(expected in a.3)
   - Simple powerup that lasts until hit, then gets dropped able to be collected again. (shoes?) (gives projectile attack?)
 ### Levels
 Levels would be grouped into chapters. Each chapter would have a specific theme.
   - Add 2 playable levels
   - Add more test levels
 ### Cheats
-Probably thru a simple console.
+Probably thru a simple console. (expected in a.4)
   - Level changer cheat (Important for debuging)
   - Invincibility cheat
   - No powerup drop
@@ -53,6 +53,7 @@ Probably thru a simple console.
   - Powerup give
 ## Known bugs
 ### Collision bugs
-  - Running into roombas sometimes makes them fly
+  - Running into roombas sometimes makes them fly (fix expected in a.3, if requires complete movement change find workaround and shift to a.4)
 ### Health bugs
-  - Invincibility animation doesnt play, Invincibility too long.
+  - Invincibility animation doesnt play. (fix expected in a.3)
+  - Invincibility too long. (fix expected in a.3)
