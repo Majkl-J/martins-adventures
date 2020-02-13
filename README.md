@@ -3,18 +3,30 @@ A game developed solely by me. The original Martin promised music.
 
 ## What is this game about
 This is a small game about my friend Martin's adventures. It is full of bad inside jokes and Roombas.
-
+## Current features
+What has been already added and when.
+### Alpha 1
+  - Added Martin (Player)
+  - Test roomba only animation
+  - Test level
+  - Movement
+### Alpha 2
+  - Added Roomba enemy (+1 plans)
+  - Fixed bug allowing you to jump indefinetely (+2 bugfixing)
+  - Added Health (+1 plans)
+  - Found a nasty collision glitch (-1 bugs)
+  - Invincibility after getting needs balancing
+  Total update points:
+  3 - OK
 ## Current plans
 This part will discuss what to expect later.
 ### Mechanics
   - Actual attack, probably makes a new object with collider (Animations done, under work)
-  - Actual health (Under work)
 ### Graphics
   - Improved graphics (Better pixelart)
   - Subpixel animations
 ### Enemies
 Currently need to add:
-  - Working roomba enemies (Currently under work)
   - Stronger enemy, probably with a simple easy to understand weakspot
   - Projectile enemy
   - Boss Franz to end the first chapter
@@ -38,3 +50,8 @@ Probably thru a simple console.
   - No powerup drop
   - Heal
   - Powerup give
+## Known bugs
+### Collision bugs
+  - Running into roombas sometimes makes them fly
+### Health bugs
+  - Invincibility animation doesnt play, Invincibility too long.
