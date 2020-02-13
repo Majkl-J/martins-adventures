@@ -16,6 +16,7 @@ What has been already added and when.
   - Added Health (+1 plans)
   - Found a nasty collision glitch (-1 bugs)
   - Invincibility after getting needs balancing
+  
   Total update points:
   3 - OK
 ## Current plans
