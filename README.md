@@ -42,7 +42,7 @@ These will be very important but should stay simple and straight to the point.
   - Simple powerup that lasts until hit, then gets dropped able to be collected again. (shoes?) (gives projectile attack?)
 ### Levels
 Levels would be grouped into chapters. Each chapter would have a specific theme.
-  - Add 2 playable levels
+  - Add 2 playable levels (expected in a.3)
   - Add more test levels
 ### Cheats
 Probably thru a simple console. (expected in a.4)
