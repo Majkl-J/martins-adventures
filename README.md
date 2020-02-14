@@ -55,5 +55,5 @@ Probably thru a simple console. (expected in a.4)
 ### Collision bugs
   - Running into roombas sometimes makes them fly (fix expected in a.3, if requires complete movement change find workaround and shift to a.4)
 ### Health bugs
-  - Invincibility animation doesnt play. (fix expected in a.3)
-  - Invincibility too long. (fix expected in a.3)
+  - Invincibility animation doesnt play. (working, fix expected in a.3)
+  - Invincibility too long. (fix done, expected in a.3)
