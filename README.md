@@ -1,4 +1,4 @@
-# Martin's Adventures
+c# Martin's Adventures
 A game developed solely by me. The original Martin promised music.
 
 ## What is this game about
@@ -21,39 +21,40 @@ What has been already added and when.
   3 - OK
 ## Current plans
 This part will discuss what to expect later.
+Updated to priority.
 ### Mechanics
-  - Actual attack, probably makes a new object with collider (Animations done, under work, expected in a.3)
+  - Actual attack, probably makes a new object with collider - Priority 10
 ### Graphics
-  - Improved graphics (Better pixelart, expected in b.1)
-  - Subpixel animations (expected in b.1)
+  - Improved graphics - Priority 5
+  - Subpixel animations - Priority 4
 ### Enemies
 Currently need to add:
-  - Stronger enemy, probably with a simple easy to understand weakspot (expected in a.3)
-  - Projectile enemy
-  - Boss Franz to end the first chapter
+  - Stronger enemy, probably with a simple easy to understand weakspot - Priority 7
+  - Projectile enemy - Priority 6
+  - Boss Franz to end the first chapter - Priority 6
 ### Ambient
 Interactive pieces of enviroment.
-  - Breakable vents (expected in a.3)
-  - Crates (expected in a.4)
-  - Big boom barrels
+  - Breakable vents - Priority 8
+  - Crates - Priority 6
+  - Big boom barrels - Priority 6
 ### Items
 These will be very important but should stay simple and straight to the point.
-  - Healing item (Chalk?)(Under work)(expected in a.3)
-  - Simple powerup that lasts until hit, then gets dropped able to be collected again. (shoes?) (gives projectile attack?)
+  - Healing item - Priority 10
+  - Simple powerup that lasts until hit, then gets dropped able to be collected again. - Priority 8
 ### Levels
 Levels would be grouped into chapters. Each chapter would have a specific theme.
-  - Add 2 playable levels (expected in a.3)
-  - Add more test levels
+  - Add 2 playable levels - Priority 10
+  - Add more test levels - Priority 10
 ### Cheats
-Probably thru a simple console. (expected in a.4)
-  - Level changer cheat (Important for debuging)
+Probably thru a simple console. - Priority 5
+  - Level changer cheat - Priority 8
   - Invincibility cheat
   - No powerup drop
   - Heal
   - Powerup give
 ## Known bugs
 ### Collision bugs
-  - Running into roombas sometimes makes them fly (fix expected in a.3, if requires complete movement change find workaround and shift to a.4)
+  - Running into roombas sometimes makes them fly - Priority 10
 ### Health bugs
-  - Invincibility animation doesnt play. (working, fix expected in a.3)
-  - Invincibility too long. (fix done, expected in a.3)
+  - Invincibility animation doesnt play. - Priority 8
+  - Invincibility too long. - Done
