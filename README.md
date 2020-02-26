@@ -3,6 +3,8 @@ A game developed solely by me. The original Martin promised music.
 
 ## What is this game about
 This is a small game about my friend Martin's adventures. It is full of bad inside jokes and Roombas.
+
+Due to a bit of burnout, development will be slower.
 ## Current features
 What has been already added and when.
 ### Alpha 1
