@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8904197242292337696}
   m_Layer: 8
   m_Name: Martin
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169,7 +169,6 @@ MonoBehaviour:
   m_rigidbody: {fileID: 8904197242292337697}
   JumpPower: 350
   isGrounded: 0
-  p_spriterend: {fileID: 8904197242292337724}
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 1024

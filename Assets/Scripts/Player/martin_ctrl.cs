@@ -14,8 +14,6 @@ public class martin_ctrl : MonoBehaviour
     float JumpPower = 100f;
     [SerializeField]
     bool isGrounded;
-    [SerializeField]
-    SpriteRenderer p_spriterend;
     [SerializeField] private LayerMask m_WhatIsGround;
     [SerializeField] private Transform m_GroundCheck;
     [SerializeField] float groundedRadius;
@@ -32,17 +30,18 @@ public class martin_ctrl : MonoBehaviour
     bool p_GotHit;
     int p_attackFrames = 60;
     int p_InvincibilityFrames;
-
+    SpriteRenderer p_spriterend;
 
     private void Start()
     {
         p_IsInvincible = false;
         p_InvincibilityFrames = p_MaxInvincibilityFrames;
         p_Health = p_StartHealth;
+        p_spriterend = GetComponent<SpriteRenderer>();
     }
     void Update()
     {
-        
+
         //Animation control
         if (Input.GetKey("a"))
         {
@@ -99,9 +98,9 @@ public class martin_ctrl : MonoBehaviour
     void FixedUpdate()
     {
         //Movement scripts
-        if(Input.GetKey("a"))
+        if (Input.GetKey("a"))
         {
-            transform.position = new Vector2(transform.position.x - MovementSpeed,transform.position.y);
+            transform.position = new Vector2(transform.position.x - MovementSpeed, transform.position.y);
             p_spriterend.flipX = true;
             p_anim.SetBool("IsMoving", true);
         }
@@ -113,7 +112,8 @@ public class martin_ctrl : MonoBehaviour
             p_anim.SetBool("IsMoving", true);
         }
 
-        
+        //Invincibility script
+
 
         if (p_GotHit == true)
         {
@@ -124,19 +124,28 @@ public class martin_ctrl : MonoBehaviour
 
         else if (p_InvincibilityFrames <= p_MaxInvincibilityFrames - 1)
         {
-            if (p_InvincibilityFrames >= 1) {
+            if (p_InvincibilityFrames > 0)
+            {
                 p_InvincibilityFrames = p_InvincibilityFrames - 1;
                 Physics2D.IgnoreLayerCollision(11, 8, true);
+                p_spriterend.color = new Color(255, 0, 0);
             }
-            else if (p_InvincibilityFrames == 0)
+
+            if (p_InvincibilityFrames == 0)
             {
                 p_IsInvincible = false;
                 p_InvincibilityFrames = p_MaxInvincibilityFrames;
-                Physics2D.IgnoreLayerCollision(11 ,8, false);
+                Physics2D.IgnoreLayerCollision(11, 8, false);
+                p_spriterend.color = new Color(255, 255, 255);
             }
+
+
+
         }
     }
 
+
+    //Collision with enemy detection.
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -160,6 +169,4 @@ public class martin_ctrl : MonoBehaviour
             }
         }
     }
-
-
 }
