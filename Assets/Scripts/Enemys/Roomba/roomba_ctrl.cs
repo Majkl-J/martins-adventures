@@ -7,12 +7,15 @@ public class roomba_ctrl : MonoBehaviour
     [SerializeField] private Transform m_PlayerCheck;
     [SerializeField] float playerRadius;
     [SerializeField] private LayerMask m_WhatIsPlayer;
-    [SerializeField] private Transform m_Player;
+    private Transform m_Player;
     [SerializeField] float movement_speed;
     [SerializeField] SpriteRenderer e_RoombaSprite;
     [SerializeField] Animator e_RoombaAnimator;
     GameObject e_Roomba;
     Rigidbody2D e_RoombaRigidbody;
+
+    private bool e_hitMartin;
+    private string p_PlayerName = "Martin";
 
     //Important roomba attack
     public static int e_RoombaAttack = 1;
@@ -24,6 +27,7 @@ public class roomba_ctrl : MonoBehaviour
     {
         e_Roomba = this.gameObject;
         e_RoombaRigidbody = e_Roomba.GetComponent<Rigidbody2D>();
+        m_Player = GameObject.Find(p_PlayerName).transform;
     }
 
     void Update()
@@ -49,26 +53,46 @@ public class roomba_ctrl : MonoBehaviour
     {
         // Makes roomba move towards player
         // Help my friend's house is getting haunted
-        if (inRadius==true)
+        if (e_hitMartin == false)
         {
-            if (m_Player.position.x - transform.position.x <= 0)
+            if (inRadius == true)
             {
-                
-                transform.position = new Vector2(transform.position.x - movement_speed, transform.position.y);
-                e_RoombaSprite.flipX = false;
+                if (m_Player.position.x - transform.position.x <= 0)
+                {
+
+                    transform.position = new Vector2(transform.position.x - movement_speed, transform.position.y);
+                    e_RoombaSprite.flipX = false;
+                }
+                else if (m_Player.position.x - transform.position.x >= 0)
+                {
+                    transform.position = new Vector2(transform.position.x + movement_speed, transform.position.y);
+                    e_RoombaSprite.flipX = true;
+                }
+                e_RoombaAnimator.Play("mainanim", -1, (1f / 2) * 1);
             }
-            else if (m_Player.position.x - transform.position.x >= 0)
+            else
             {
-                transform.position = new Vector2(transform.position.x + movement_speed, transform.position.y);
-                e_RoombaSprite.flipX = true;
+                //animator.Play ("AnimationName", 1, ( 1f / total_frames_in_animation ) * desired_frame);
+                e_RoombaAnimator.Play("mainanim", -1, (1f / 2) * 2);
+
             }
-            e_RoombaAnimator.Play("mainanim", -1, (1f / 2) * 1);
-        }
-        else
-        {
-            //animator.Play ("AnimationName", 1, ( 1f / total_frames_in_animation ) * desired_frame);
-            e_RoombaAnimator.Play("mainanim", -1, (1f / 2) * 2);
-            
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == (p_PlayerName)){
+            StartCoroutine(HitMartin());
+        }
+    }
+
+    IEnumerator HitMartin()
+    {
+        e_hitMartin = true;
+
+        yield return new WaitForSecondsRealtime(2);
+
+        e_hitMartin = false;
+    }
+
 }
