@@ -20,7 +20,7 @@ public class roomba_ctrl : MonoBehaviour
     //Important roomba attack
     public static int e_RoombaAttack = 1;
 
-    public static bool e_RoombaDie = false;
+    bool e_RoombaDie = false;
 
     bool inRadius;
     void Awake()
@@ -42,11 +42,6 @@ public class roomba_ctrl : MonoBehaviour
             {
                 inRadius = true;
             }
-        }
-        //kills roomba
-        if (e_RoombaDie == true)
-        {
-            Destroy(e_Roomba);
         }
     }
     void FixedUpdate()
@@ -95,4 +90,9 @@ public class roomba_ctrl : MonoBehaviour
         e_hitMartin = false;
     }
 
+    //kills roomba
+    public void killRoomba()
+    {
+        Destroy(e_Roomba);
+    }
 }

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8904197242292337697}
   - component: {fileID: 8904197242292337698}
   - component: {fileID: 8904197242292337696}
+  - component: {fileID: 4421296893020121271}
   m_Layer: 8
   m_Name: Martin
   m_TagString: Player
@@ -119,7 +120,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 0.5
   m_AngularDrag: 0.05
   m_GravityScale: 2
   m_Material: {fileID: 0}
@@ -174,13 +175,38 @@ MonoBehaviour:
     m_Bits: 1024
   m_GroundCheck: {fileID: 8904197243174248330}
   groundedRadius: 2
-  p_anim: {fileID: 8904197242292337725}
   p_eCollision: {fileID: 8904197242292337698}
   p_gCollision: {fileID: 8904197243174248329}
   groundCollider: {fileID: 0}
   e_RoombaCollider: {fileID: 0}
-  p_MaxInvincibilityFrames: 120
   p_StartHealth: 3
+  atk_collider: {fileID: 4421296893020121271}
+--- !u!61 &4421296893020121271
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8904197242292337726}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.42, y: -0.1}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5362458, y: 0.803123}
+  m_EdgeRadius: 0
 --- !u!1 &8904197242462257263
 GameObject:
   m_ObjectHideFlags: 0
