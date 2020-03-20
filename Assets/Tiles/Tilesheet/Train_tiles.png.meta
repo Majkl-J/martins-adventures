@@ -50,6 +50,54 @@ TextureImporter:
   - first:
       213: -1427124661106609826
     second: Train_tiles_15
+  - first:
+      213: 8773195691231742497
+    second: Train_tiles_16
+  - first:
+      213: -3805942229411684562
+    second: Train_tiles_17
+  - first:
+      213: -5079689871343248600
+    second: Train_tiles_18
+  - first:
+      213: 6176159961575107639
+    second: Train_tiles_19
+  - first:
+      213: -2892102215743225741
+    second: Train_tiles_20
+  - first:
+      213: 8456854116863329568
+    second: Train_tiles_21
+  - first:
+      213: -1075862884663550264
+    second: Train_tiles_22
+  - first:
+      213: -2301607105537899661
+    second: Train_tiles_23
+  - first:
+      213: -2749469471865854186
+    second: Train_tiles_24
+  - first:
+      213: -2110043931005011886
+    second: Train_tiles_25
+  - first:
+      213: -1170973666603493350
+    second: Train_tiles_26
+  - first:
+      213: -1423137873450126741
+    second: Train_tiles_27
+  - first:
+      213: 8169716400589169836
+    second: Train_tiles_28
+  - first:
+      213: 624157263761425775
+    second: Train_tiles_29
+  - first:
+      213: -5673945832577899840
+    second: Train_tiles_30
+  - first:
+      213: 5194597525597242760
+    second: Train_tiles_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -162,7 +210,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 108
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -183,7 +231,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 108
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -204,7 +252,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 108
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -225,7 +273,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 108
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -246,7 +294,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 92
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -267,7 +315,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 92
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -288,7 +336,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 76
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -309,7 +357,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 76
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -330,7 +378,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 60
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -351,7 +399,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 60
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -372,7 +420,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 60
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -393,7 +441,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 60
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -414,7 +462,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 44
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -435,11 +483,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 92
+        y: 96
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,11 +504,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 92
+        y: 96
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -477,11 +525,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 92
+        y: 96
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -489,6 +537,342 @@ TextureImporter:
       bones: []
       spriteID: d07ff40d7b79b244eb7d43d7db1297f8
       internalID: -1427124661106609826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c39dfd2607f9f449a95ab514566b44d
+      internalID: 8773195691231742497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9b0a4535b703d4bb9c6b160fcf6070
+      internalID: -3805942229411684562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b13715ea006ff14f90f0d91407a96d8
+      internalID: -5079689871343248600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eac05c1818429543b62bb5651b5652b
+      internalID: 6176159961575107639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55a8021e5f16fd43aef51bc65b44faf
+      internalID: -2892102215743225741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1168f969be9d79043a5c3d2795b77cfc
+      internalID: 8456854116863329568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eafaa873c560704f940e6464277f782
+      internalID: -1075862884663550264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12db153935dc2704d97b24481aa20430
+      internalID: -2301607105537899661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d87682e5624cc4f8544a4434d20481
+      internalID: -2749469471865854186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9304dcda944552418da440f320e7a62
+      internalID: -2110043931005011886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d994c7c80440c074fa99dd4a0dd5f5e6
+      internalID: -1170973666603493350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ed147137693ad45b6e7313996c473b
+      internalID: -1423137873450126741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee226cacddbc5384d8f322cafd687881
+      internalID: 8169716400589169836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9eaa32a7dd09b14391d3c8fab3b014e
+      internalID: 624157263761425775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12fd25c8a1efa74e9324260f1ac853c
+      internalID: -5673945832577899840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Train_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd888b3f29c32d4c9dfb105e4765570
+      internalID: 5194597525597242760
       vertices: []
       indices: 
       edges: []

@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Consumables\White chalk\white_chalk_ctrl.cs" />
     <Compile Include="Assets\Scripts\Enemys\Roomba\roomba_ctrl.cs" />
+    <Compile Include="Assets\Scripts\Enviroment\Parallax\Parallax1.cs" />
     <Compile Include="Assets\Scripts\Player\martin_ctrl.cs" />
     <Compile Include="Assets\Scripts\UI\UI_ctrl.cs" />
     <Reference Include="Unity.Timeline.Editor">
